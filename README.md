@@ -4,7 +4,7 @@
 
 ![](.github/screenshot.png)
 
-A simple script for the [Craft](https://www.craft.do/) notes app that collects open todos from all documents.
+A simple script for the [Craft](https://www.craft.do/) notes app that collects open todos from all documents. Works only with [External storage](https://www.craft.do/getting-started/b/A9629D59-881C-4785-822F-15BC6FAEEAEF/💻_Using_Local_Storage) (iCloud drive) libraries. 
 
 
 ## Requirements
@@ -24,6 +24,5 @@ A simple script for the [Craft](https://www.craft.do/) notes app that collects o
 ## Caveats
 
 * Craft does not have an API, so i am parsing the json files. Changes to their format will probably break the parser.
-* Only tested with [External storage](https://www.craft.do/getting-started/b/A9629D59-881C-4785-822F-15BC6FAEEAEF/💻_Using_Local_Storage) (iCloud drive) libraries. 
 * Not tested with huge Craft libraries 
 
